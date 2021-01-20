@@ -1,0 +1,43 @@
+Circuit: * C:\Users\HP\Desktop\IE E-C\ELECTRONICS\Draft4.asc
+
+Error on line 3 : d1 n001 0 d1n4004rl
+	 Unable to find definition of model "d1n4004rl"
+Error on line 842 : model d1n4004rl d is=5.31656e-08 rs=0.0392384 n=2 eg=0.6 xti=0.05 bv=400 ibv=5e-08 cjo=1e-11 vj=0.7 m=0.5 fc=0.5 tt=1e-09 kf=0 af=1
+	 Unable to find definition of model "2"
+	
+	*  Unknown parameter "eg"
+WARNING: Node D is floating.
+WARNING: Node IS is floating.
+WARNING: Node 5.31656E-08 is floating.
+
+WARNING: Less than two connections to node D1N4004RL.  This node is used by MODEL.
+WARNING: Less than two connections to node IS.  This node is used by MODEL.
+.OP point found by inspection.
+Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+
+Date: Wed Jan 20 22:23:10 2021
+Total elapsed time: 4.476 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2311
+traniter = 2311
+tranpoints = 1073
+accept = 1062
+rejected = 1
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 446 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 403 bytes object code size  0.1/0.1/[0.1]
+
